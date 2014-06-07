@@ -11,10 +11,8 @@ public class MyBlogs {
 
 	private void testLoad() {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml"); 
-		App generator = 
-			    (App) context.getBean("sequenceGenerator"); 
+		App generator = (App) context.getBean("sequenceGenerator"); 
 	}
-	
 	
 	public static void main(String[] args) {
         ApplicationContext context =  
